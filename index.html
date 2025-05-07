@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick Zhang's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dna-animation">
+        <div class="dna-helix"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-dna"></i>
+                    <span>BioPortfolio</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <div class="profile-icon">
+                        <img src="profile/1.svg" alt="Nick Zhang" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1>Nick Zhang</h1>
+                    <h2>Computer Engineer</h2>
+                    <p class="hero-bio">Nick Zhang is a skilled computer engineer with a strong foundation in software development and engineering principles. He has hands-on experience in building full-stack applications, implementing secure authentication mechanisms, and optimizing system performance. His technical proficiency spans multiple programming languages and frameworks, making him adept at tackling complex engineering challenges.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn primary">Contact Me</a>
+                        <a href="#research" class="btn secondary">View Research</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="divider">
+                    <i class="fas fa-dna"></i>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Nick Zhang, a computer engineer with a strong foundation in software development and engineering principles. I have hands-on experience in building full-stack applications, implementing secure authentication mechanisms, and optimizing system performance.</p>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="card-text">
+                            <h3>Contact</h3>
+                            <p>jz7074@nyu.edu</p>
+                            <p>+1-917-231-5580</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="divider">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+            </div>
+            <div class="timeline" id="education-container">
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Master of Science</h3>
+                            <span class="timeline-date">May 2026</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="institution">New York University</p>
+                            <p class="field">Computer Engineering</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bachelor of Engineering</h3>
+                            <span class="timeline-date">Jun. 2024</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="institution">Wuhan University</p>
+                            <p class="field">Communication Engineering</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <div class="divider">
+                    <i class="fas fa-microscope"></i>
+                </div>
+            </div>
+            <div class="projects-grid" id="projects-container">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Online Dish Ordering Software</h3>
+                        <p class="project-duration">Jul. 2024</p>
+                        <p class="project-description">Full stack software development based on SpringBoot for online dish ordering, including management and user sides with features like browsing, ordering, and payment.</p>
+                        <div class="project-tech">
+                            <span>SpringBoot</span>
+                            <span>JWT</span>
+                            <span>Nginx</span>
+                            <span>AOP</span>
+                            <span>MySQL</span>
+                            <span>Redis</span>
+                            <span>WebSocket</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>Built a management and user side for dish ordering</li>
+                                <li>Implemented secure user authentication</li>
+                                <li>Enhanced performance with Nginx and Redis</li>
+                                <li>Enabled real-time communication with WebSocket</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Multi-Functional Store Exploration App</h3>
+                        <p class="project-duration">Jan. 2025</p>
+                        <p class="project-description">Developed a face recognition system based on deep learning for a service platform focused on food exploration and lifestyle sharing.</p>
+                        <div class="project-tech">
+                            <span>Redis</span>
+                            <span>Kafka</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>Implemented user login and session management</li>
+                                <li>Used optimistic and distributed locks for inventory management</li>
+                                <li>Improved rush purchase performance with Redis and Kafka</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <div class="divider">
+                    <i class="fas fa-tools"></i>
+                </div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Programming Languages & Frameworks</h3>
+                    <div class="skills-grid" id="technical-skills-container">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Java</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>C</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>C#</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>CSS</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Javascript</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 65%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>SpringBoot</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Spring MVC</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 55%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>MyBatis</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 50%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-vuejs"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Vue</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 45%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="awards">
+        <div class="container">
+            <div class="section-header">
+                <h2>Honors & Awards</h2>
+                <div class="divider">
+                    <i class="fas fa-award"></i>
+                </div>
+            </div>
+            <div class="awards-grid" id="awards-container">
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3>2nd class prize, Texas Instruments National Undergraduate Electronics Design Contest</h3>
+                        <p class="award-date">Nov. 2021</p>
+                        <p class="award-org">Texas Instruments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="divider">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>I'm always interested in new research collaborations, speaking opportunities, or discussions about my work. Feel free to reach out!</p>
+                </div>
+                <div class="contact-methods">
+                    <a href="mailto:jz7074@nyu.edu" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Email</h3>
+                            <p>jz7074@nyu.edu</p>
+                        </div>
+                    </a>
+                    
+                    <a href="tel:+19172315580" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Phone</h3>
+                            <p>+1-917-231-5580</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/nick-zhangjiayi/" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/nick-zhangjiayi/</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-dna"></i>
+                    <span>Nick Zhang</span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/nick-zhangjiayi/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Nick Zhang. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu if open
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
